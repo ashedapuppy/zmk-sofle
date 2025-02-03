@@ -17,6 +17,7 @@
 For 3D printed model files or any issues and malfunctions with the keyboard, please contact 380465425@qq.com
 
 # Sofle Keymap
+[keymap editor](https://nickcoutsos.github.io/keymap-editor/)
 
 
 <img src="keymap-drawer/eyelash_sofle.svg" >
