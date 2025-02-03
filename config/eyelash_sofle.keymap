@@ -49,6 +49,24 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        siancombo {
+            bindings = <&sianmacro>;
+            key-positions = <28 27 46 22>;
+        };
+    };
+
+    macros {
+        sianmacro: sian {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp LC(LS(U)) &kp N1 &kp D &kp N0 &kp RETURN &kp A &kp N>;
+            label = "SIAN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -98,6 +116,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        double {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
