@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/GPeye
     - name: kevinpastor
       url-base: https://github.com/kevinpastor
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -19,6 +21,9 @@ manifest:
       revision: main
     - name: nice-view-elemental
       remote: kevinpastor
+      revision: main
+    - name: nice-view-gem
+      remote: m165437
       revision: main
     - name: zmk
       remote: zmkfirmware
