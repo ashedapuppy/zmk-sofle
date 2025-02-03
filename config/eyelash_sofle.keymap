@@ -81,6 +81,7 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "layer_0";
+            label = "layer_0";
         };
 
         layer_1 {
@@ -106,6 +107,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "layer_2";
         };
 
         layer_3 {
@@ -116,6 +118,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "layer_3";
         };
     };
 
