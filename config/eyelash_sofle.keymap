@@ -94,7 +94,7 @@
             >;
 
             display-name = "layer_1";
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
@@ -120,6 +120,7 @@
             >;
 
             label = "layer_3";
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
     };
 
